@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import FilmList from "../componenets/FilmList";
 
-class filmBox extends Component {
+class FilmBox extends Component {
 
     constructor(props){
         super(props);
@@ -24,7 +24,8 @@ class filmBox extends Component {
                   },
                   {
                     id: 4,
-                    name: "The Lego Movie 2: The Second Part", url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
+                    name: "The Lego Movie 2: The Second Part", 
+                    url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
                   },
                   {
                     id: 5,
@@ -45,4 +46,4 @@ class filmBox extends Component {
     }
 }
 
-export default filmBox;
+export default FilmBox;
