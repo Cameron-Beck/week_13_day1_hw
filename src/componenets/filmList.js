@@ -1,13 +1,13 @@
 import React, {Component} from "react"
-import Comment from "./Comment";
+import Film from "./Film";
 
 class FilmList extends Component {
     render(){
-        const commentNodes = this.props.data.map(comment => {
+        const filmNodes = this.props.data.map(film => {
             return (
-                <Comment author={comment.author} Key={comment.id}>
-                    {comment.text}
-                </Comment>
+                <Film film={film.name} Key={film.id}>
+                    {film.url}
+                </Film>
             )
         })
 

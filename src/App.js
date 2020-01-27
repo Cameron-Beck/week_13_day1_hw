@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import filmBox from './containers/filmBox';
 
 function App() {
-  return null (
-
+  return  (
+    <filmBox />
   );
 }
 
